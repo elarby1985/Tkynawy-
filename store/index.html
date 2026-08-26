@@ -133,7 +133,7 @@ function render(){
   const status=p.status||'in_stock', statusClass=status==='sold'?'sold':status==='reserved'?'reserved':'';
   const label=status==='sold'?T[STORE_LANG].sold:status==='reserved'?T[STORE_LANG].reserved:T[STORE_LANG].stock;
   const imageSrc=p.image?(String(p.image).startsWith("http")?p.image:`/store/product-images/${p.image}`):""; const img=imageSrc?`<img src="${esc(imageSrc)}" alt="${esc(name)}">`:`<div class="photo-placeholder"><span class="ph-brand">TYKNAWY</span><span class="ph-title">${esc(name)}</span><span class="ph-note">${STORE_LANG==='ar'?'أضف صورة المنتج':'Add product photo'}</span></div>`;
-  const msg=STORE_LANG==='ar'?`مرحباً متجر تيكناوي، أنا مهتم بجهاز ${name}. هل هو متوفر؟`:`Hello Tyknawy Store, I am interested in ${name}. Is it available?`;
+  const msg=STORE_LANG==='ar'?`مرحباً متجر تيكناوي، أنا مهتم بجهاز ${name}. هل هو ؟`:`Hello Tyknawy Store, I am interested in ${name}. Is it available?`;
   const wa=`https://wa.me/${STORE_PHONE}?text=${encodeURIComponent(msg)}`;
   const btn=status==='sold'?`<span class="buy disabled">${T[STORE_LANG].sold}</span>`:`<a class="buy" href="${wa}" target="_blank">${T[STORE_LANG].ask}</a>`;
   const hasPrice=Number(p.price||0)>0; const old=hasPrice&&Number(p.old_price||0)>Number(p.price||0)?`<div class="old">${Number(p.old_price).toLocaleString('en-US')} ${T[STORE_LANG].qar}</div>`:''; const priceHtml=hasPrice?`${Number(p.price).toLocaleString('en-US')} <small>${T[STORE_LANG].qar}</small>`:(STORE_LANG==='ar'?'السعر عند الطلب':'Price on request');
