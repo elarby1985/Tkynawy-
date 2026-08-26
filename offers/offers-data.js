@@ -8,8 +8,8 @@ window.TYKNawyOffers = [
   },
   {
     id: "villa-package", active: true, image: "villa-package.jpeg",
-    en: { title: "6-Camera Villa Package", price: "QAR 1,999", tag: "For villas", description: "Six Tiandy cameras with recorder for dependable, complete home coverage." },
-    ar: { title: "باقة الفيلا – 6 كاميرات", price: "1,999 ر.ق", tag: "للـفلل", description: "ست كاميرات Tiandy مع جهاز تسجيل، باقة متكاملة لتغطية المنزل." }
+    en: { title: "6-Camera Villa Package", priceEn: "QAR 1,999", tag: "For villas", description: "Six Tiandy cameras with recorder for dependable, complete home coverage." },
+    ar: { title: "باقة الفيلا – 6 كاميرات", priceAr: "1,999 ر.ق", tag: "للـفلل", description: "ست كاميرات Tiandy مع جهاز تسجيل، باقة متكاملة لتغطية المنزل." }
   },
   {
     id: "retail-package", active: true, image: "retail-package.jpeg",
