@@ -1,0 +1,79 @@
+TYKNAWY STORE - DAILY UPDATE GUIDE
+
+ONE INVENTORY FILE:
+store/products.json
+
+Both English and Arabic stores read this same file.
+
+IPHONE SERIES INCLUDED:
+iPhone 14 / 14 Plus / 14 Pro / 14 Pro Max
+iPhone 15 / 15 Plus / 15 Pro / 15 Pro Max
+iPhone 16 / 16 Plus / 16 Pro / 16 Pro Max / 16e
+
+TO ADD A REAL PHOTO:
+1. Put the photo in: store/product-images/
+2. Example filename: iphone-16-pro-max.jpg
+3. In products.json set: "image": "iphone-16-pro-max.jpg"
+
+NO EMOJI PRODUCT IMAGES:
+If no photo is entered, a clean Tyknawy branded placeholder is shown.
+
+PRICE:
+"price": 0 means Price on request.
+Example: "price": 2450
+
+STOCK:
+"status": "in_stock"
+"status": "reserved"
+"status": "sold"
+
+DEPLOY:
+Zip the complete website and upload it to the existing Tyknawy Netlify project.
+
+
+STORAGE OPTIONS
+Each iPhone can now have multiple storage sizes in the SAME product card.
+
+Example inside store/products.json:
+
+"storage_options": [
+  {"storage": "128GB", "price": 1800, "status": "in_stock"},
+  {"storage": "256GB", "price": 2050, "status": "in_stock"},
+  {"storage": "512GB", "price": 2450, "status": "sold"}
+]
+
+When the customer clicks a storage size:
+- the displayed price changes
+- the selected storage is added to the WhatsApp inquiry
+- sold storage options are disabled
+
+This works in both English and Arabic from the same products.json file.
+
+
+OFFICIAL PRODUCT PHOTOS
+The catalogue now includes Apple-hosted official product imagery for:
+- iPhone 14 / 14 Pro family
+- iPhone 15 / 15 Pro family
+- iPhone 16 / 16 Pro family
+- iPhone 17
+- iPhone Air
+- iPhone 17 Pro / Pro Max
+- iPhone 17e
+- Apple Watch Ultra 2
+- Apple Watch Ultra 3
+
+You can still replace any official catalogue image with the real used-device photo:
+1. Put your photo in store/product-images/
+2. Change the product "image" field from the web URL to your filename.
+Example:
+"image": "my-used-iphone17pro.jpg"
+
+For used items, using the actual device photo is recommended.
+
+
+STORE BRANDING
+The store uses the retail lockup:
+TYKNAWY STORE
+
+This is shown only on the English and Arabic store pages.
+The main Tyknawy contracting website branding is unchanged.
