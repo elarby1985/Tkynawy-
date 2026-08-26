@@ -110,7 +110,7 @@ const STORE_LANG=document.documentElement.lang==='ar'?'ar':'en';
 const STORE_PHONE='97471040746';
 const T={
  en:{stock:'',reserved:'Reserved',sold:'Sold',ask:'Ask / Buy',qar:'QAR',storageLabel:'Storage',grade:'Grade',results:'products',empty:'No products match your filters.'},
- ar:{stock:'متوفر',reserved:'محجوز',sold:'مباع',ask:'استفسار / شراء',qar:'ر.ق',storageLabel:'السعة',grade:'التقييم',results:'منتج',empty:'لا توجد منتجات مطابقة للفلاتر.'}
+ ar:{stock:'',reserved:'محجوز',sold:'مباع',ask:'استفسار / شراء',qar:'ر.ق',storageLabel:'السعة',grade:'التقييم',results:'منتج',empty:'لا توجد منتجات مطابقة للفلاتر.'}
 };
 let allProducts=[], activeCategory='all', activeSeries='';
 const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
