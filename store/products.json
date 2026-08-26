@@ -12,7 +12,7 @@
     "condition_ar": "Mint Condition",
     "grade": "-",
     "price": 1350,
-    "status": "in_stock",
+    "status": "Sold",
     "brand": "Apple",
     "old_price": 1320,
     "badge_en": "iPhone 14 Series",
@@ -21,7 +21,7 @@
       {
         "storage": "128GB",
         "price": 1350,
-        "status": "in_stock"
+        "status": "Sold"
       },
       {
         "storage": "256GB",
