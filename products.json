@@ -1,0 +1,798 @@
+[
+  {
+    "id": "iphone-14",
+    "category": "iphone",
+    "series": "14", 
+    "image": "14N.jpg",
+    "name_en": "iPhone 14",  
+    "name_ar": "iPhone 14",
+    "spec_en": "6.1-inch • Multiple storage options • Add actual device details when in stock",
+    "spec_ar": "خيارات سعة متعددة • أضف تفاصيل الجهاز الفعلية عند توفره",
+    "condition_en": "Mint Condition",
+    "condition_ar": "Mint Condition",
+    "grade": "-",
+    "price": 1350,
+    "status": "in_stock",
+    "brand": "Apple",
+    "old_price": 1320,
+    "badge_en": "iPhone 14 Series",
+    "badge_ar": "سلسلة iPhone 14",
+    "storage_options": [
+      {
+        "storage": "128GB",
+        "price": 1350,
+        "status": "in_stock"
+      },
+      {
+        "storage": "256GB",
+        "price": 1299,
+        "status": "in_stock"
+      },
+      {
+        "storage": "512GB",
+        "price": 1700,
+        "status": "in_stock"
+      }
+    ]
+  },
+  {
+    "id": "iphone-14-plus",
+    "category": "iphone",
+    "series": "14",
+    "image": "14plus.jpg",
+    "name_en": "iPhone 14 Plus",
+    "name_ar": "iPhone 14 Plus",
+    "spec_en": "6.7-inch • Multiple storage options • Add actual device details when in stock",
+    "spec_ar": "خيارات سعة متعددة • أضف تفاصيل الجهاز الفعلية عند توفره",
+    "condition_en": "Condition to be updated",
+    "condition_ar": "يتم تحديث الحالة عند توفر الجهاز",
+    "grade": "-",
+    "price": 1599,
+    "status": "in_stock",
+    "brand": "Apple",
+    "old_price": 0,
+    "badge_en": "iPhone 14 Series",
+    "badge_ar": "سلسلة iPhone 14",
+    "storage_options": [
+      {
+        "storage": "128GB",
+        "price": 1599,
+        "status": "in_stock"
+      },
+      {
+        "storage": "256GB",
+        "price": 0,
+        "status": "in_stock"
+      },
+      {
+        "storage": "512GB",
+        "price": 0,
+        "status": "in_stock"
+      }
+    ]
+  },
+  {
+    "id": "iphone-14-pro",
+    "category": "iphone",
+    "series": "14",
+    "image": "14pro.png",
+    "name_en": "iPhone 14 Pro",
+    "name_ar": "iPhone 14 Pro",
+    "spec_en": "6.1-inch Pro • Multiple storage options • Add actual device details when in stock",
+    "spec_ar": "خيارات سعة متعددة • أضف تفاصيل الجهاز الفعلية عند توفره",
+    "condition_en": "Mint Condition",
+    "condition_ar": "يتم تحديث الحالة عند توفر الجهاز",
+    "price": 1599,
+    "status": "in_stock",
+    "brand": "Apple",
+    "old_price": 0,
+    "badge_en": "iPhone 14 Series",
+    "badge_ar": "سلسلة iPhone 14",
+    "storage_options": [
+      {
+        "storage": "128GB",
+        "price": 1599,
+        "status": "in_stock"
+      },
+      {
+        "storage": "256GB",
+        "price": 1799,
+        "status": "in_stock"
+      },
+      {
+        "storage": "512GB",
+        "price": 2100,
+        "status": "in_stock"
+      },
+      {
+        "storage": "1TB",
+        "price": 0,
+        "status": "in_stock"
+      }
+    ]
+  },
+  {
+    "id": "iphone-14-pro-max",
+    "category": "iphone",
+    "series": "14",
+    "image": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111846_sp875-sp876-iphone14-pro-promax.png",
+    "name_en": "iPhone 14 Pro Max",
+    "name_ar": "iPhone 14 Pro Max",
+    "spec_en": "6.7-inch Pro Max • Multiple storage options • Add actual device details when in stock",
+    "spec_ar": "خيارات سعة متعددة • أضف تفاصيل الجهاز الفعلية عند توفره",
+    "condition_en": "Condition to be updated",
+    "condition_ar": "يتم تحديث الحالة عند توفر الجهاز",
+    "price": 1899,
+    "status": "in_stock",
+    "brand": "Apple",
+    "old_price": 0,
+    "badge_en": "iPhone 14 Series",
+    "badge_ar": "سلسلة iPhone 14",
+    "storage_options": [
+      {
+        "storage": "128GB",
+        "price": 1899,
+        "status": "in_stock"
+      },
+      {
+        "storage": "256GB",
+        "price": 2050,
+        "status": "in_stock"
+      },
+      {
+        "storage": "512GB",
+        "price": 0,
+        "status": "in_stock"
+      },
+      {
+        "storage": "1TB",
+        "price": 0,
+        "status": "in_stock"
+      }
+    ]
+  },
+  {
+    "id": "iphone-15",
+    "category": "iphone",
+    "series": "15",
+    "image": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone_15_hero.png",
+    "name_en": "iPhone 15",
+    "name_ar": "iPhone 15",
+    "spec_en": "6.1-inch • Multiple storage options • Add actual device details when in stock",
+    "spec_ar": "خيارات سعة متعددة • أضف تفاصيل الجهاز الفعلية عند توفره",
+    "condition_en": "Mint Condition",
+    "condition_ar": "يتم تحديث الحالة عند توفر الجهاز",
+    "price": 1625,
+    "status": "in_stock",
+    "brand": "Apple",
+    "old_price": 0,
+    "badge_en": "iPhone 15 Series",
+    "badge_ar": "سلسلة iPhone 15",
+    "storage_options": [
+      {
+        "storage": "128GB",
+        "price": 1625,
+        "status": "in_stock"
+      },
+      {
+        "storage": "256GB",
+        "price": 1935,
+        "status": "in_stock"
+      },
+      {
+        "storage": "512GB",
+        "price": 0,
+        "status": "in_stock"
+      }
+    ]
+  },
+  {
+    "id": "iphone-15-plus",
+    "category": "iphone",
+    "series": "15",
+    "image": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone_15_hero.png",
+    "name_en": "iPhone 15 Plus",
+    "name_ar": "iPhone 15 Plus",
+    "spec_en": "6.7-inch • Multiple storage options • Add actual device details when in stock",
+    "spec_ar": "خيارات سعة متعددة • أضف تفاصيل الجهاز الفعلية عند توفره",
+    "condition_en": "Condition to be updated",
+    "condition_ar": "يتم تحديث الحالة عند توفر الجهاز",
+    "price": 1700,
+    "status": "in_stock",
+    "brand": "Apple",
+    "old_price": 0,
+    "badge_en": "iPhone 15 Series",
+    "badge_ar": "سلسلة iPhone 15",
+    "storage_options": [
+      {
+        "storage": "128GB",
+        "price": 1700,
+        "status": "in_stock"
+      },
+      {
+        "storage": "256GB",
+        "price": 0,
+        "status": "in_stock"
+      },
+      {
+        "storage": "512GB",
+        "price": 0,
+        "status": "in_stock"
+      }
+    ]
+  },
+  {
+    "id": "iphone-15-pro",
+    "category": "iphone",
+    "series": "15",
+    "image": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-15-pro-max.png",
+    "name_en": "iPhone 15 Pro",
+    "name_ar": "iPhone 15 Pro",
+    "spec_en": "6.1-inch Pro • Multiple storage options • Add actual device details when in stock",
+    "spec_ar": "خيارات سعة متعددة • أضف تفاصيل الجهاز الفعلية عند توفره",
+    "condition_en": "Condition to be updated",
+    "condition_ar": "يتم تحديث الحالة عند توفر الجهاز",
+    "price": 2100,
+    "status": "in_stock",
+    "brand": "Apple",
+    "old_price": 0,
+    "badge_en": "iPhone 15 Series",
+    "badge_ar": "سلسلة iPhone 15",
+    "storage_options": [
+      {
+        "storage": "128GB",
+        "price": 2100,
+        "status": "in_stock"
+      },
+      {
+        "storage": "256GB",
+        "price": 1950,
+        "status": "in_stock"
+      },
+      {
+        "storage": "512GB",
+        "price": 0,
+        "status": "in_stock"
+      },
+      {
+        "storage": "1TB",
+        "price": 0,
+        "status": "in_stock"
+      }
+    ]
+  },
+  {
+    "id": "iphone-15-pro-max",
+    "category": "iphone",
+    "series": "15",
+    "image": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-15-pro-max.png",
+    "name_en": "iPhone 15 Pro Max",
+    "name_ar": "iPhone 15 Pro Max",
+    "spec_en": "6.7-inch Pro Max • Multiple storage options • Add actual device details when in stock",
+    "spec_ar": "خيارات سعة متعددة • أضف تفاصيل الجهاز الفعلية عند توفره",
+    "condition_en": "Condition to be updated",
+    "condition_ar": "يتم تحديث الحالة عند توفر الجهاز",
+    "price": 2350,
+    "status": "in_stock",
+    "brand": "Apple",
+    "old_price": 0,
+    "badge_en": "iPhone 15 Series",
+    "badge_ar": "سلسلة iPhone 15",
+    "storage_options": [
+      {
+        "storage": "128GB",
+        "price": 2370,
+        "status": "in_stock"
+      },
+      {
+        "storage": "256GB",
+        "price": 0,
+        "status": "in_stock"
+      },
+      {
+        "storage": "512GB",
+        "price": 0,
+        "status": "in_stock"
+      },
+      {
+        "storage": "1TB",
+        "price": 0,
+        "status": "in_stock"
+      }
+    ]
+  },
+  {
+    "id": "iphone-16",
+    "category": "iphone",
+    "series": "16",
+    "image": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121030-iphone-16-plus.png",
+    "name_en": "iPhone 16",
+    "name_ar": "iPhone 16",
+    "spec_en": "6.1-inch • Multiple storage options • Add actual device details when in stock",
+    "spec_ar": "خيارات سعة متعددة • أضف تفاصيل الجهاز الفعلية عند توفره",
+    "condition_en": "Condition to be updated",
+    "condition_ar": "يتم تحديث الحالة عند توفر الجهاز",
+    "price": 2100,
+    "status": "in_stock",
+    "brand": "Apple",
+    "old_price": 0,
+    "badge_en": "iPhone 16 Series",
+    "badge_ar": "سلسلة iPhone 16",
+    "storage_options": [
+      {
+        "storage": "128GB",
+        "price": 2100,
+        "status": "in_stock"
+      },
+      {
+        "storage": "256GB",
+        "price": 2450,
+        "status": "in_stock"
+      },
+      {
+        "storage": "512GB",
+        "price": 0,
+        "status": "in_stock"
+      }
+    ]
+  },
+  {
+    "id": "iphone-16-plus",
+    "category": "iphone",
+    "series": "16",
+    "image": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121030-iphone-16-plus.png",
+    "name_en": "iPhone 16 Plus",
+    "name_ar": "iPhone 16 Plus",
+    "spec_en": "6.7-inch • Multiple storage options • Add actual device details when in stock",
+    "spec_ar": "خيارات سعة متعددة • أضف تفاصيل الجهاز الفعلية عند توفره",
+    "condition_en": "Condition to be updated",
+    "condition_ar": "يتم تحديث الحالة عند توفر الجهاز",
+    "price": 2300,
+    "status": "in_stock",
+    "brand": "Apple",
+    "old_price": 2100,
+    "badge_en": "iPhone 16 Series",
+    "badge_ar": "سلسلة iPhone 16",
+    "storage_options": [
+      {
+        "storage": "128GB",
+        "price": 2300,
+        "status": "in_stock"
+      },
+      {
+        "storage": "256GB",
+        "price": 2400,
+        "status": "in_stock"
+      },
+      {
+        "storage": "512GB",
+        "price": 0,
+        "status": "in_stock"
+      }
+    ]
+  },
+  {
+    "id": "iphone-16-pro",
+    "category": "iphone",
+    "series": "16",
+    "image": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121032-iphone-16-pro-max.png",
+    "name_en": "iPhone 16 Pro",
+    "name_ar": "iPhone 16 Pro",
+    "spec_en": "6.3-inch Pro • Multiple storage options • Add actual device details when in stock",
+    "spec_ar": "خيارات سعة متعددة • أضف تفاصيل الجهاز الفعلية عند توفره",
+    "condition_en": "Condition to be updated",
+    "condition_ar": "يتم تحديث الحالة عند توفر الجهاز",
+    "grade": "-",
+    "price": 2400,
+    "status": "in_stock",
+    "brand": "Apple",
+    "old_price": 0,
+    "badge_en": "iPhone 16 Series",
+    "badge_ar": "سلسلة iPhone 16",
+    "storage_options": [
+      {
+        "storage": "128GB",
+        "price": 2400,
+        "status": "in_stock"
+      },
+      {
+        "storage": "256GB",
+        "price": 2400,
+        "status": "in_stock"
+      },
+      {
+        "storage": "512GB",
+        "price": 0,
+        "status": "in_stock"
+      },
+      {
+        "storage": "1TB",
+        "price": 0,
+        "status": "in_stock"
+      }
+    ]
+  },
+  {
+    "id": "iphone-16-pro-max",
+    "category": "iphone",
+    "series": "16",
+    "image": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121032-iphone-16-pro-max.png",
+    "name_en": "iPhone 16 Pro Max",
+    "name_ar": "iPhone 16 Pro Max",
+    "spec_en": "6.9-inch Pro Max • Multiple storage options • Add actual device details when in stock",
+    "spec_ar": "خيارات سعة متعددة • أضف تفاصيل الجهاز الفعلية عند توفره",
+    "condition_en": "Condition to be updated",
+    "condition_ar": "يتم تحديث الحالة عند توفر الجهاز",
+    "grade": "-",
+    "price": 3200,
+    "status": "in_stock",
+    "brand": "Apple",
+    "old_price": 0,
+    "badge_en": "iPhone 16 Series",
+    "badge_ar": "سلسلة iPhone 16",
+    "storage_options": [
+      {
+        "storage": "128GB",
+        "price": 3200,
+        "status": "in_stock"
+      },
+      {
+        "storage": "256GB",
+        "price": 0,
+        "status": "in_stock"
+      },
+      {
+        "storage": "512GB",
+        "price": 0,
+        "status": "in_stock"
+      },
+      {
+        "storage": "1TB",
+        "price": 0,
+        "status": "in_stock"
+      }
+    ]
+  },
+  {
+    "id": "iphone-16e",
+    "category": "iphone",
+    "series": "16",
+    "image": "16e1.jpeg",
+    "name_en": "iPhone 16e",
+    "name_ar": "iPhone 16e",
+    "spec_en": "6.1-inch • Multiple storage options • Add actual device details when in stock",
+    "spec_ar": "خيارات سعة متعددة • أضف تفاصيل الجهاز الفعلية عند توفره",
+    "condition_en": "Fresh Condition ",
+    "condition_ar": "حالة ممتازة",
+    "grade": "A",
+    "price": 1625,
+    "status": "in_stock",
+    "brand": "Apple",
+    "QTY": "1",
+    "old_price": 0,
+    "badge_en": "iPhone 16 Series",
+    "badge_ar": "سلسلة iPhone 16",
+    "storage_options": [
+      {
+        "storage": "128GB",
+        "price": 1625,
+        "status": "in_stock"
+      },
+      {
+        "storage": "256GB",
+        "price": 2100,
+        "status": "in_stock"
+      },
+      {
+        "storage": "512GB",
+        "price": 0,
+        "status": "in_stock"
+      }
+    ]
+  },
+  {
+    "id": "apple-watch-s10-45",
+    "category": "watch",
+    "series": "",
+    "image": "s10.jpg",
+    "name_en": "Apple Watch Series 10 — 45 mm",
+    "name_ar": "Apple Watch Series 10 — 45 mm",
+    "spec_en": "Midnight • GPS • Original charger",
+    "spec_ar": "لون Midnight • GPS • الشاحن الأصلي",
+    "condition_en": "Excellent condition",
+    "condition_ar": "حالة ممتازة",
+    "grade": "A",
+    "price": 925,
+    "status": "No stock",
+    "brand": "Apple",
+    "old_price": 0,
+    "badge_en": "",
+    "badge_ar": ""
+  },
+  {
+    "id": "ps5-disc",
+    "category": "gaming",
+    "series": "",
+    "image": "PS5d.jpg",
+    "name_en": "PlayStation 5 — Disc Edition",
+    "name_ar": "PlayStation 5 — Disc Edition",
+    "spec_en": "1 controller • HDMI & power • Fully tested",
+    "spec_ar": "يد تحكم واحدة • HDMI وكابل طاقة • تم الفحص بالكامل",
+    "condition_en": "Very good condition",
+    "condition_ar": "حالة جيدة جدًا",
+    "grade": "A",
+    "price": 1550,
+    "status": "in_stock",
+    "brand": "Sony",
+    "old_price": 1650,
+    "badge_en": "Gaming",
+    "badge_ar": "ألعاب"
+  },
+  {
+    "id": "Huawei clips",
+    "category": "accessories",
+    "series": "",
+    "image": "C2.png",
+    "name_en": "Huawei clips 2",
+    "name_ar": "Huawei clips 2",
+    "spec_en": "USB-C case • Tested & cleaned",
+    "spec_ar": "علبة USB-C • تم الفحص والتنظيف",
+    "condition_en": "Excellent condition",
+    "condition_ar": "حالة ممتازة",
+    "grade": "A",
+    "price": 465,
+    "status": "in_stock",
+    "brand": "Huawei",
+    "old_price": 499,
+    "badge_en": "",
+    "badge_ar": ""
+  },
+  {
+    "id": "iphone-17",
+    "category": "iphone",
+    "series": "17",
+    "image": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-17-hero.png",
+    "name_en": "iPhone 17",
+    "name_ar": "iPhone 17",
+    "spec_en": "6.3-inch • A19 • 48MP Dual Fusion camera",
+    "spec_ar": "شاشة 6.3 بوصة • شريحة A19 • كاميرا 48MP Dual Fusion",
+    "condition_en": "Condition to be updated",
+    "condition_ar": "يتم تحديث الحالة عند توفر الجهاز",
+    "grade": "A",
+    "price": 2750,
+    "status": "in_stock",
+    "brand": "Apple",
+    "old_price": 0,
+    "badge_en": "iPhone 17 Series",
+    "badge_ar": "سلسلة iPhone 17",
+    "storage_options": [
+      {
+        "storage": "256GB",
+        "price": 2750,
+        "status": "in_stock"
+      },
+      {
+        "storage": "512GB",
+        "price": 0,
+        "status": "in_stock"
+      }
+    ]
+  },
+  {
+    "id": "iphone-air",
+    "category": "iphone",
+    "series": "17",
+    "image": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-air-hero.png",
+    "name_en": "iPhone Air",
+    "name_ar": "iPhone Air",
+    "spec_en": "6.5-inch • A19 Pro • Ultra-thin titanium design",
+    "spec_ar": "شاشة 6.5 بوصة • شريحة A19 Pro • تصميم تيتانيوم فائق النحافة",
+    "condition_en": "Mint Condition",
+    "condition_ar": "حالة ممتازة",
+    "grade": "-",
+    "price": 2925,
+    "status": "in_stock",
+    "brand": "Apple",
+    "old_price": 0,
+    "badge_en": "iPhone 17 Series",
+    "badge_ar": "سلسلة iPhone 17",
+    "storage_options": [
+      {
+        "storage": "256GB",
+        "price": 2950,
+        "status": "in_stock"
+      },
+      {
+        "storage": "512GB",
+        "price": 0,
+        "status": "in_stock"
+      },
+      {
+        "storage": "1TB",
+        "price": 0,
+        "status": "in_stock"
+      }
+    ]
+  },
+  {
+    "id": "iphone-17-pro",
+    "category": "iphone",
+    "series": "17",
+    "image": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-17-pro-17-pro-max-hero.png",
+    "name_en": "iPhone 17 Pro",
+    "name_ar": "iPhone 17 Pro",
+    "spec_en": "6.3-inch Pro • A19 Pro • 48MP Pro Fusion camera system",
+    "spec_ar": "شاشة Pro مقاس 6.3 بوصة • شريحة A19 Pro • نظام كاميرات 48MP Pro Fusion",
+    "condition_en": "Condition to be updated",
+    "condition_ar": "يتم تحديث الحالة عند توفر الجهاز",
+    "grade": "-",
+    "price": 3600,
+    "status": "in_stock",
+    "brand": "Apple",
+    "old_price": 0,
+    "badge_en": "iPhone 17 Pro",
+    "badge_ar": "iPhone 17 Pro",
+    "storage_options": [
+      {
+        "storage": "256GB",
+        "price": 3600,
+        "status": "in_stock"
+      },
+      {
+        "storage": "512GB",
+        "price": 0,
+        "status": "in_stock"
+      },
+      {
+        "storage": "1TB",
+        "price": 0,
+        "status": "in_stock"
+      }
+    ]
+  },
+  {
+    "id": "iphone-17-pro-max",
+    "category": "iphone",
+    "series": "17",
+    "image": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-17-pro-17-pro-max-hero.png",
+    "name_en": "iPhone 17 Pro Max",
+    "name_ar": "iPhone 17 Pro Max",
+    "spec_en": "6.9-inch Pro Max • A19 Pro • 48MP Pro Fusion camera system",
+    "spec_ar": "شاشة Pro Max مقاس 6.9 بوصة • شريحة A19 Pro • نظام كاميرات 48MP Pro Fusion",
+    "condition_en": "Condition to be updated",
+    "condition_ar": "يتم تحديث الحالة عند توفر الجهاز",
+    "grade": "-",
+    "price": 4100,
+    "status": "in_stock",
+    "brand": "Apple",
+    "old_price": 0,
+    "badge_en": "iPhone 17 Pro Max",
+    "badge_ar": "iPhone 17 Pro Max",
+    "storage_options": [
+      {
+        "storage": "256GB",
+        "price": 4100,
+        "status": "in_stock"
+      },
+      {
+        "storage": "512GB",
+        "price": 0,
+        "status": "in_stock"
+      },
+      {
+        "storage": "1TB",
+        "price": 0,
+        "status": "in_stock"
+      },
+      {
+        "storage": "2TB",
+        "price": 0,
+        "status": "in_stock"
+      }
+    ]
+  },
+  {
+    "id": "iphone-17e",
+    "category": "iphone",
+    "series": "17",
+    "image": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-17e.png",
+    "name_en": "iPhone 17e",
+    "name_ar": "iPhone 17e",
+    "spec_en": "6.1-inch • A19 • 48MP camera",
+    "spec_ar": "شاشة 6.1 بوصة • شريحة A19 • كاميرا 48MP",
+    "condition_en": "Condition to be updated",
+    "condition_ar": "يتم تحديث الحالة عند توفر الجهاز",
+    "grade": "-",
+    "price": "2150",
+    "status": "in_stock",
+    "brand": "Apple",
+    "old_price": 0,
+    "badge_en": "iPhone 17 Series",
+    "badge_ar": "سلسلة iPhone 17",
+    "storage_options": [
+      {
+        "storage": "256GB",
+        "price": 2150,
+        "status": "in_stock"
+      },
+      {
+        "storage": "512GB",
+        "price": 0,
+        "status": "in_stock"
+      }
+    ]
+  },
+  {
+    "id": "apple-watch-ultra-2",
+    "category": "watch",
+    "series": "",
+    "image": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/111832-watch-ultra-2.png",
+    "name_en": "Apple Watch Ultra 2 — 49 mm",
+    "name_ar": "Apple Watch Ultra 2 — 49 مم",
+    "spec_en": "Titanium • GPS + Cellular • 49 mm",
+    "spec_ar": "تيتانيوم • GPS + Cellular • مقاس 49 مم",
+    "condition_en": "Mint condition",
+    "condition_ar": "حالة ممنازة",
+    "price": "1650",
+    "status": "in_stock",
+    "brand": "Apple",
+    "old_price": 0,
+    "badge_en": "Ultra",
+    "badge_ar": "Ultra"
+  },
+  {
+    "id": "apple-watch-ultra-3",
+    "category": "watch",
+    "series": "",
+    "image": "U3.jpg",
+    "name_en": "Apple Watch Ultra 3 — 49 mm",
+    "name_ar": "Apple Watch Ultra 3 — 49 مم",
+    "spec_en": "Titanium • GPS + Cellular • 49 mm • S10 chip",
+    "spec_ar": "تيتانيوم • GPS + Cellular • مقاس 49 مم • شريحة S10",
+    "condition_en": "Condition to be updated",
+    "condition_ar": "يتم تحديث الحالة عند توفر الساعة",
+    "grade": "A", 
+    "price":2250,
+    "status": "in_stock",
+    "brand": "Apple",
+    "old_price": 0,
+    "badge_en": "Ultra 3",
+    "badge_ar": "Ultra 3"
+  },
+  {
+    "id": "ps5-slim-disc",
+    "category": "gaming",
+    "series": "ps5",
+    "image": "ps5n.jpg",
+    "name_en": "PlayStation 5 Slim — Disc Edition",
+    "name_ar": "PlayStation 5 Slim — إصدار الأقراص",
+    "spec_en": "Slim model • Disc drive • 1 DualSense controller • HDMI & power cables",
+    "spec_ar": "الإصدار النحيف • محرك أقراص • يد تحكم DualSense واحدة • كابل HDMI والطاقة",
+    "condition_en": "Mint Condition ",
+    "condition_ar": " حالة ممنازة",
+    "grade": "-",
+    "price": 2099,
+    "status": "in_stock",
+    "brand": "Sony",
+    "badge_en": "PS5 Slim",
+    "badge_ar": "PS5 Slim"
+  },
+  {
+    "id": "ps5-slim-digital",
+    "category": "gaming",
+    "series": "ps5",
+    "image": "ps5ncd.jpg",
+    "name_en": "PlayStation 5 Slim — Digital Edition",
+    "name_ar": "PlayStation 5 Slim — الإصدار الرقمي",
+    "spec_en": "Slim model • Digital Edition • 1 DualSense controller • HDMI & power cables",
+    "spec_ar": "الإصدار النحيف • إصدار رقمي • يد تحكم DualSense واحدة • كابل HDMI والطاقة",
+    "condition_en": "mint condition",
+    "condition_ar": "يتم تحديث الحالة عند توفر الجهاز",
+    "price": 1750,
+    "status": "in_stock",
+    "brand": "Sony",
+    "old_price": 1850,
+    "badge_en": "PS5 Slim",
+    "badge_ar": "PS5 Slim"
+  }
+]
