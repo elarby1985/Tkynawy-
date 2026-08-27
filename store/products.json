@@ -21,7 +21,7 @@
       {
         "storage": "128GB",
         "price": 1350,
-        "status": "Sold"
+        "status": "sold"
       },
       {
         "storage": "256GB",
