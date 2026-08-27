@@ -466,7 +466,7 @@
     "condition_ar": "حالة ممتازة",
     "grade": "A",
     "price": 1625,
-    "status": "in_stock",
+    "status": "sold",
     "brand": "Apple",
     "QTY": "1",
     "old_price": 0,
