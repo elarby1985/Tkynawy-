@@ -3,16 +3,16 @@
     "id": "iphone-14",
     "category": "iphone",
     "series": "14", 
-    "image": "14n.jpg",
+    "image": "14N.jpg",
     "name_en": "iPhone 14",  
     "name_ar": "iPhone 14",
     "spec_en": "6.1-inch • Multiple storage options • Add actual device details when in stock",
     "spec_ar": "خيارات سعة متعددة • أضف تفاصيل الجهاز الفعلية عند توفره",
     "condition_en": "Mint Condition",
     "condition_ar": "Mint Condition",
-    "ٍSold": "-",
+    "grade": "-",
     "price": 1350,
-    "status": "sold"
+    "status": "in_stock",
     "brand": "Apple",
     "old_price": 1320,
     "badge_en": "iPhone 14 Series",
@@ -21,7 +21,7 @@
       {
         "storage": "128GB",
         "price": 1350,
-        "status": "sold"
+        "status": "in_stock"
       },
       {
         "storage": "256GB",

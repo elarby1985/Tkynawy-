@@ -98,7 +98,8 @@ footer{background:var(--dark);color:#d7e2ef;padding:36px 0}.foot{display:flex;ju
 }
 
 </style><link rel="alternate" hreflang="en" href="https://tyknawy.com/store/"><link rel="alternate" hreflang="ar" href="https://tyknawy.com/ar/store/"></head><body>
-<div class="topbar"><div class="c"><div class="promo">Selected tech • Clear condition • Local Qatar support</div><div class="minor"><span>WhatsApp +974 7104 0746</span><a href
+<div class="topbar"><div class="c"><div class="promo">Selected tech • Clear condition • Local Qatar support</div><div class="minor"><span>WhatsApp +974 7104 0746</span><a href="/ar/store/">العربية</a></div></div></div>
+<header><div class="c nav"><a href="/store/" class="brand"><span style="font-weight:900;letter-spacing:.05em">TYKNAWY</span> <span style="color:#f58220;font-weight:900">STORE</span></a><div class="search"><input id="q" placeholder="Search iPhone, Watch, PS5..."><span class="icon">⌕</span></div><div class="nav-actions"><a class="pill" href="/">Main Website</a><a class="pill" href="/ar/store/">العربية</a><a class="pill whatsapp" href="https://wa.me/97471040746?text=Hello%20Tyknawy%20Store" target="_blank">WhatsApp</a></div></div></header>
 <div class="catbar"><div class="c"><span class="catlink on" data-category="all">All</span><span class="catlink" data-category="iphone">iPhone</span><span class="catlink" data-series="14">iPhone 14</span><span class="catlink" data-series="15">iPhone 15</span><span class="catlink" data-series="16">iPhone 16</span><span class="catlink" data-series="17">iPhone 17</span><span class="catlink" data-category="watch">Watches</span><span class="catlink" data-category="gaming">Gaming</span><span class="catlink" data-category="accessories">Accessories</span><span class="catlink" data-category="laptop">Laptops</span></div></div>
 <main><section class="hero"><div class="c"><div class="hero-card"><div class="hero-copy"><div class="eyebrow">TYKNAWY STORE • DOHA, QATAR</div><h1>Better tech. Smarter value.</h1><p>Shop selected new and pre-owned technology with clear condition details, transparent prices and direct local support from Tyknawy.</p><div class="hero-actions"><a class="primary" href="#shop">Shop now</a><a class="secondary" href="#sell">Sell your device</a></div></div><div class="hero-art hero-retail-visual"><div class="hero-product-stack"><div class="hero-device hero-watch"></div><div class="hero-device hero-phone"></div><div class="hero-device hero-console"></div></div></div></div></div></div></section>
 <div class="c"><div class="features"><div class="feature"><span class="ico">✓</span><div><strong>Device Inspection</strong><span>Checked before listing</span></div></div><div class="feature"><span class="ico">A</span><div><strong>Clear Grading</strong><span>Condition shown clearly</span></div></div><div class="feature"><span class="ico">◉</span><div><strong>Local Support</strong><span>Direct WhatsApp assistance</span></div></div><div class="feature"><span class="ico">↗</span><div><strong>Qatar Handover</strong><span>Collection or delivery coordination</span></div></div></div></div>
@@ -108,8 +109,8 @@ footer{background:var(--dark);color:#d7e2ef;padding:36px 0}.foot{display:flex;ju
 const STORE_LANG=document.documentElement.lang==='ar'?'ar':'en';
 const STORE_PHONE='97471040746';
 const T={
- en:{stock:'',reserved:'Reserved',sold:'Sold',ask:'Ask / Buy',qar:'QAR',storageLabel:'Storage',grade:'Grade',results:'products',empty:'No products match your filters.'},
- ar:{stock:'',reserved:'محجوز',sold:'مباع',ask:'استفسار / شراء',qar:'ر.ق',storageLabel:'السعة',grade:'التقييم',results:'منتج',empty:'لا توجد منتجات مطابقة للفلاتر.'}
+ en:{stock:'In stock',reserved:'Reserved',sold:'Sold',ask:'Ask / Buy',qar:'QAR',storageLabel:'Storage',grade:'Grade',results:'products',empty:'No products match your filters.'},
+ ar:{stock:'متوفر',reserved:'محجوز',sold:'مباع',ask:'استفسار / شراء',qar:'ر.ق',storageLabel:'السعة',grade:'التقييم',results:'منتج',empty:'لا توجد منتجات مطابقة للفلاتر.'}
 };
 let allProducts=[], activeCategory='all', activeSeries='';
 const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
@@ -132,7 +133,7 @@ function render(){
   const status=p.status||'in_stock', statusClass=status==='sold'?'sold':status==='reserved'?'reserved':'';
   const label=status==='sold'?T[STORE_LANG].sold:status==='reserved'?T[STORE_LANG].reserved:T[STORE_LANG].stock;
   const imageSrc=p.image?(String(p.image).startsWith("http")?p.image:`/store/product-images/${p.image}`):""; const img=imageSrc?`<img src="${esc(imageSrc)}" alt="${esc(name)}">`:`<div class="photo-placeholder"><span class="ph-brand">TYKNAWY</span><span class="ph-title">${esc(name)}</span><span class="ph-note">${STORE_LANG==='ar'?'أضف صورة المنتج':'Add product photo'}</span></div>`;
-  const msg=STORE_LANG==='ar'?`مرحباً متجر تيكناوي، أنا مهتم بجهاز ${name}. هل هو ؟`:`Hello Tyknawy Store, I am interested in ${name}. Is it available?`;
+  const msg=STORE_LANG==='ar'?`مرحباً متجر تيكناوي، أنا مهتم بجهاز ${name}. هل هو متوفر؟`:`Hello Tyknawy Store, I am interested in ${name}. Is it available?`;
   const wa=`https://wa.me/${STORE_PHONE}?text=${encodeURIComponent(msg)}`;
   const btn=status==='sold'?`<span class="buy disabled">${T[STORE_LANG].sold}</span>`:`<a class="buy" href="${wa}" target="_blank">${T[STORE_LANG].ask}</a>`;
   const hasPrice=Number(p.price||0)>0; const old=hasPrice&&Number(p.old_price||0)>Number(p.price||0)?`<div class="old">${Number(p.old_price).toLocaleString('en-US')} ${T[STORE_LANG].qar}</div>`:''; const priceHtml=hasPrice?`${Number(p.price).toLocaleString('en-US')} <small>${T[STORE_LANG].qar}</small>`:(STORE_LANG==='ar'?'السعر عند الطلب':'Price on request');
