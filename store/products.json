@@ -233,7 +233,7 @@
     "condition_en": "Condition to be updated",
     "condition_ar": "يتم تحديث الحالة عند توفر الجهاز",
     "price": 2100,
-    "status": "in_stock",
+    "status": "sold",
     "brand": "Apple",
     "old_price": 0,
     "badge_en": "iPhone 15 Series",
@@ -272,7 +272,7 @@
     "spec_ar": "خيارات سعة متعددة • أضف تفاصيل الجهاز الفعلية عند توفره",
     "condition_en": "Condition to be updated",
     "condition_ar": "يتم تحديث الحالة عند توفر الجهاز",
-    "price": 2350,
+    "price": 2550,
     "status": "in_stock",
     "brand": "Apple",
     "old_price": 0,
@@ -281,7 +281,7 @@
     "storage_options": [
       {
         "storage": "128GB",
-        "price": 2370,
+        "price": 2550,
         "status": "in_stock"
       },
       {
@@ -347,7 +347,7 @@
     "spec_ar": "خيارات سعة متعددة • أضف تفاصيل الجهاز الفعلية عند توفره",
     "condition_en": "Condition to be updated",
     "condition_ar": "يتم تحديث الحالة عند توفر الجهاز",
-    "price": 2300,
+    "price": 2399,
     "status": "in_stock",
     "brand": "Apple",
     "old_price": 2100,
@@ -356,7 +356,7 @@
     "storage_options": [
       {
         "storage": "128GB",
-        "price": 2300,
+        "price": 2399,
         "status": "in_stock"
       },
       {
@@ -384,7 +384,7 @@
     "condition_ar": "يتم تحديث الحالة عند توفر الجهاز",
     "grade": "-",
     "price": 2400,
-    "status": "in_stock",
+    "status": "sold",
     "brand": "Apple",
     "old_price": 0,
     "badge_en": "iPhone 16 Series",
@@ -424,7 +424,7 @@
     "condition_en": "Condition to be updated",
     "condition_ar": "يتم تحديث الحالة عند توفر الجهاز",
     "grade": "-",
-    "price": 3200,
+    "price": 3350,
     "status": "in_stock",
     "brand": "Apple",
     "old_price": 0,
@@ -522,7 +522,7 @@
     "condition_ar": "حالة جيدة جدًا",
     "grade": "A",
     "price": 1550,
-    "status": "in_stock",
+    "status": "sold",
     "brand": "Sony",
     "old_price": 1650,
     "badge_en": "Gaming",
@@ -540,7 +540,7 @@
     "condition_en": "Excellent condition",
     "condition_ar": "حالة ممتازة",
     "grade": "A",
-    "price": 465,
+    "price": 435,
     "status": "in_stock",
     "brand": "Huawei",
     "old_price": 499,
@@ -559,7 +559,7 @@
     "condition_en": "Condition to be updated",
     "condition_ar": "يتم تحديث الحالة عند توفر الجهاز",
     "grade": "A",
-    "price": 2750,
+    "price": 2850,
     "status": "in_stock",
     "brand": "Apple",
     "old_price": 0,
@@ -568,7 +568,7 @@
     "storage_options": [
       {
         "storage": "256GB",
-        "price": 2750,
+        "price": 2850,
         "status": "in_stock"
       },
       {
@@ -590,7 +590,7 @@
     "condition_en": "Mint Condition",
     "condition_ar": "حالة ممتازة",
     "grade": "-",
-    "price": 2925,
+    "price": 2850,
     "status": "in_stock",
     "brand": "Apple",
     "old_price": 0,
@@ -599,7 +599,7 @@
     "storage_options": [
       {
         "storage": "256GB",
-        "price": 2950,
+        "price": 2850,
         "status": "in_stock"
       },
       {
@@ -734,7 +734,7 @@
     "condition_en": "Mint condition",
     "condition_ar": "حالة ممنازة",
     "price": "1650",
-    "status": "in_stock",
+    "status": "sold",
     "brand": "Apple",
     "old_price": 0,
     "badge_en": "Ultra",
@@ -749,10 +749,10 @@
     "name_ar": "Apple Watch Ultra 3 — 49 مم",
     "spec_en": "Titanium • GPS + Cellular • 49 mm • S10 chip",
     "spec_ar": "تيتانيوم • GPS + Cellular • مقاس 49 مم • شريحة S10",
-    "condition_en": "Condition to be updated",
-    "condition_ar": "يتم تحديث الحالة عند توفر الساعة",
+    "condition_en": "mint conditin",
+    "condition_ar": "حالة ممتازة",
     "grade": "A", 
-    "price":2250,
+    "price":2150,
     "status": "in_stock",
     "brand": "Apple",
     "old_price": 0,
@@ -789,7 +789,7 @@
     "condition_en": "mint condition",
     "condition_ar": "يتم تحديث الحالة عند توفر الجهاز",
     "price": 1750,
-    "status": "in_stock",
+    "status": "sold",
     "brand": "Sony",
     "old_price": 1850,
     "badge_en": "PS5 Slim",
