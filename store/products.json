@@ -833,20 +833,22 @@
     "badge_en": "Dahua NVR",
     "badge_ar": "Dahua NVR"
   },
+    },
+    {
+      "id": "ezviz-c6n",
+      "category": "security",
+      "series": "wifi-camera",
+      "image": "ezviz-c6n.jpg",
+      "name_en": "EZVIZ C6N Wi-Fi Camera",
+      "name_ar": "كاميرا EZVIZ C6N واي فاي",
+      "spec_en": "Indoor Wi-Fi camera • 360° coverage • Motion detection • Night vision • Two-way audio • EZVIZ App",
+      "spec_ar": "كاميرا داخلية واي فاي • تغطية 360° • كشف الحركة • رؤية ليلية • صوت ثنائي الاتجاه • تطبيق EZVIZ",
+      "condition_en": "New",
+      "condition_ar": "جديد",
+      "grade": "New",
+      "price": 0,
+      "currency": "QAR",
+      "status": "in_stock",
+      "brand": "EZVIZ"
+    }
 ]
-  "id": "ezviz-c6n",
-  "category": "security",
-  "series": "wifi-camera",
-  "image": "ezviz-c6n.jpg",
-  "name_en": "EZVIZ C6N Wi-Fi Camera",
-  "name_ar": "كاميرا EZVIZ C6N واي فاي",
-  "spec_en": "Indoor Wi-Fi camera • 360° coverage • Motion detection • Night vision • Two-way audio • EZVIZ App",
-  "spec_ar": "كاميرا داخلية واي فاي • تغطية 360° • كشف الحركة • رؤية ليلية • صوت ثنائي الاتجاه • تطبيق EZVIZ",
-  "condition_en": "New",
-  "condition_ar": "جديد",
-  "grade": "New",
-  "price": 0,
-  "currency": "QAR",
-  "status": "in_stock",
-  "brand": "EZVIZ"
-}
