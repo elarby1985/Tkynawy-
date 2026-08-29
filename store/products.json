@@ -849,5 +849,22 @@
       "currency": "QAR",
       "status": "in_stock",
       "brand": "EZVIZ"
+        },
+    {
+  "id": "ezviz-h8c",
+  "category": "security",
+  "series": "wifi-camera",
+  "image": "ezviz-h8c.jpg",
+  "name_en": "EZVIZ H8c Outdoor Wi-Fi Camera",
+  "name_ar": "كاميرا EZVIZ H8c خارجية واي فاي",
+  "spec_en": "Outdoor Wi-Fi camera • Pan & Tilt • Smart motion detection • Color night vision • Two-way audio • EZVIZ App",
+  "spec_ar": "كاميرا خارجية واي فاي • دوران أفقي ورأسي • كشف ذكي للحركة • رؤية ليلية ملونة • صوت ثنائي الاتجاه • تطبيق EZVIZ",
+  "condition_en": "New",
+  "condition_ar": "جديد",
+  "grade": "New",
+  "price": 0,
+  "currency": "QAR",
+  "status": "in_stock",
+  "brand": "EZVIZ"
     }
 ]
