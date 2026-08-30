@@ -7,3 +7,10 @@
   font-weight:700!important;
   letter-spacing:0!important;
 }
+.inner-hero .eyebrow{
+  display:block;
+  color:#0b58ad;
+  font-size:1.12rem;
+  font-weight:900;
+  letter-spacing:.08em;
+}
