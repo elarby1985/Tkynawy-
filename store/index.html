@@ -124,7 +124,8 @@ function seriesLabel(category,series){
 function buildSeriesMenus(){
  ['iphone','watch'].forEach(category=>{
    const host=document.getElementById(`${category}-series-menu`);
-   const values=[...new Set(allProducts.filter(p=>p.category===category&&p.series).map(p=>String(p.series)))];
+   const defaults=category==='iphone'?['14','15','16','17']:['series10','series11','ultra1','ultra2','ultra3'];
+   const values=[...new Set([...defaults,...allProducts.filter(p=>p.category===category&&p.series).map(p=>String(p.series))])];
    values.sort((a,b)=>a.localeCompare(b,undefined,{numeric:true}));
    const allLabel=category==='iphone'?'All iPhones':'All Apple Watches';
    host.innerHTML=`<button class="series-choice" data-series-category="${category}" data-series-value="">${allLabel}</button>`+values.map(value=>`<button class="series-choice" data-series-category="${category}" data-series-value="${esc(value)}">${esc(seriesLabel(category,value))}</button>`).join('');
