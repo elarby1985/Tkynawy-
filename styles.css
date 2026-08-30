@@ -2265,3 +2265,26 @@ p {
 @media (prefers-reduced-motion: reduce) {
   .integration-showcase::after,.hub-dot,.integration-showcase picture img { animation: none!important; }
 }
+
+/* Data points travelling from each service to the central rack */
+.data-particle {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 2px solid rgba(255,255,255,.95);
+  border-radius: 50%;
+  background: #ff9d00;
+  box-shadow: 0 0 5px #ff9d00, 0 0 13px rgba(22,132,223,.9);
+  opacity: 0;
+}
+.flow-l1{animation:flowL1 3.6s linear infinite}.flow-l2{animation:flowL2 3.9s linear -1.7s infinite}.flow-l3{animation:flowL3 3.7s linear -.8s infinite}.flow-l4{animation:flowL4 4.1s linear -2.6s infinite}
+.flow-r1{animation:flowR1 3.8s linear -2.1s infinite}.flow-r2{animation:flowR2 4s linear -.4s infinite}.flow-r3{animation:flowR3 3.65s linear -1.25s infinite}.flow-r4{animation:flowR4 4.15s linear -3s infinite}
+@keyframes flowL1{0%{left:29%;top:33%;opacity:0}12%{opacity:1}45%{left:36%;top:33%}72%{left:36.5%;top:43%}88%{opacity:1}100%{left:40%;top:43%;opacity:0}}
+@keyframes flowL2{0%{left:29%;top:47%;opacity:0}12%{opacity:1}45%{left:36%;top:47%}72%{left:36.5%;top:54%}88%{opacity:1}100%{left:40%;top:54%;opacity:0}}
+@keyframes flowL3{0%{left:29%;top:62%;opacity:0}12%{opacity:1}45%{left:36%;top:62%}72%{left:36.5%;top:65%}88%{opacity:1}100%{left:40%;top:65%;opacity:0}}
+@keyframes flowL4{0%{left:29%;top:78%;opacity:0}12%{opacity:1}45%{left:36%;top:78%}72%{left:36.5%;top:77%}88%{opacity:1}100%{left:40%;top:77%;opacity:0}}
+@keyframes flowR1{0%{left:71%;top:33%;opacity:0}12%{opacity:1}45%{left:64%;top:33%}72%{left:63.5%;top:43%}88%{opacity:1}100%{left:60%;top:43%;opacity:0}}
+@keyframes flowR2{0%{left:71%;top:47%;opacity:0}12%{opacity:1}45%{left:64%;top:47%}72%{left:63.5%;top:54%}88%{opacity:1}100%{left:60%;top:54%;opacity:0}}
+@keyframes flowR3{0%{left:71%;top:62%;opacity:0}12%{opacity:1}45%{left:64%;top:62%}72%{left:63.5%;top:65%}88%{opacity:1}100%{left:60%;top:65%;opacity:0}}
+@keyframes flowR4{0%{left:71%;top:78%;opacity:0}12%{opacity:1}45%{left:64%;top:78%}72%{left:63.5%;top:77%}88%{opacity:1}100%{left:60%;top:77%;opacity:0}}
+@media (prefers-reduced-motion: reduce) { .data-particle { animation: none!important; } }
