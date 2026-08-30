@@ -2322,3 +2322,23 @@ p {
 /* Project brief and real project photography */
 .project-brief{display:grid;grid-template-columns:1.35fr .65fr;gap:40px;padding:36px;border:1px solid #d7e2ee;border-radius:22px;background:#fff;box-shadow:0 16px 45px rgba(11,47,91,.08)}.project-brief span{color:#ff9d00;font-weight:900;font-size:.78rem;letter-spacing:.1em}.project-brief h2{margin:12px 0;color:#061d42;font-size:clamp(1.8rem,3vw,2.8rem);letter-spacing:-.02em}.project-brief p{margin:0;color:#63748a;line-height:1.8}.project-brief dl{margin:0}.project-brief dl div{padding:13px 0;border-bottom:1px solid #e1e8f0}.project-brief dl div:last-child{border:0}.project-brief dt{color:#8290a3;font-size:.76rem}.project-brief dd{margin:5px 0 0;color:#061d42;font-weight:800}.project-photo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:22px}.project-photo-grid figure{position:relative;overflow:hidden;height:330px;margin:0;border-radius:18px;background:#e9f0f7}.project-photo-grid figure.wide{grid-column:1/-1;height:420px}.project-photo-grid img{width:100%;height:100%;object-fit:cover;transition:transform .6s ease}.project-photo-grid figure:hover img{transform:scale(1.035)}.project-photo-grid figcaption{position:absolute;right:14px;bottom:14px;left:14px;padding:11px 13px;border-radius:10px;color:#fff;background:rgba(6,29,66,.78);font-size:.84rem;font-weight:800}
 @media(max-width:760px){.inner-hero{padding:60px 0 38px}.inner-hero h1{font-size:2.55rem}.inner-content{padding:38px 0 64px}.split-story,.project-brief{grid-template-columns:1fr}.split-story img{height:300px}.service-page-grid,.process-page-grid,.partner-page-grid,.contact-page-grid{grid-template-columns:1fr}.project-brief{padding:24px;gap:22px}.project-photo-grid{grid-template-columns:1fr 1fr}.project-photo-grid figure{height:260px}.project-photo-grid figure.wide{grid-column:1/-1;height:280px}}
+
+/* Separate-page header and label adjustments */
+.site-header .brand small {
+  display: none !important;
+}
+
+.inner-hero .eyebrow,
+.project-hero .eyebrow {
+  font-size: clamp(1.2rem, 1.6vw, 1.45rem) !important;
+  font-weight: 900 !important;
+  line-height: 1.35 !important;
+  letter-spacing: 0.08em !important;
+}
+
+@media (max-width: 760px) {
+  .inner-hero .eyebrow,
+  .project-hero .eyebrow {
+    font-size: 1.05rem !important;
+  }
+}
