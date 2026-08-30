@@ -493,7 +493,7 @@
   {
     "id": "apple-watch-s10-45",
     "category": "watch",
-    "series": "",
+    "series": "series10",
     "image": "s10.jpg",
     "name_en": "Apple Watch Series 10 — 45 mm",
     "name_ar": "Apple Watch Series 10 — 45 mm",
@@ -725,7 +725,7 @@
   {
     "id": "apple-watch-ultra-2",
     "category": "watch",
-    "series": "",
+    "series": "ultra2",
     "image": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/111832-watch-ultra-2.png",
     "name_en": "Apple Watch Ultra 2 — 49 mm",
     "name_ar": "Apple Watch Ultra 2 — 49 مم",
@@ -743,7 +743,7 @@
   {
     "id": "apple-watch-ultra-3",
     "category": "watch",
-    "series": "",
+    "series": "ultra3",
     "image": "u3.jpg",
     "name_en": "Apple Watch Ultra 3 — 49 mm",
     "name_ar": "Apple Watch Ultra 3 — 49 مم",
