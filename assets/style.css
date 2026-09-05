@@ -7,22 +7,3 @@
   font-weight:700!important;
   letter-spacing:0!important;
 }
-.inner-hero .eyebrow{
-  display:block;
-  color:#0b58ad;
-  font-size:2.12rem;
-  font-weight:900;
-  letter-spacing:.08em;
-/* Remove subtitle under logo */
-.info-page .brand small,
-.projects-page .brand small {
-  display: none !important;
-}
-
-/* Enlarge small page headings */
-.inner-hero .eyebrow,
-.project-hero .eyebrow {
-  font-size: 2.3rem !important;
-  font-weight: 900 !important;
-  letter-spacing: 0.08em !important;
-}
