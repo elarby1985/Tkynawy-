@@ -2187,8 +2187,3 @@ p {
   display: block;
   margin: auto;
 }
-
-/* Rack-free About section: full-width copy on all screens */
-.about-layout {display:block !important; max-width:1000px; margin-inline:auto;}
-.about-layout .about-eyebrow, .about-layout .about-copy {grid-column:auto !important;grid-row:auto !important;}
-.about-layout .about-eyebrow {margin-top:0;}
