@@ -3,7 +3,7 @@
   "name": "tyknawy",
   "compatibility_date": "2026-08-26",
   "assets": {
-    "directory": "./dist",
+    "directory": ".",
     "not_found_handling": "404-page"
   }
 }
