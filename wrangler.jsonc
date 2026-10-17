@@ -1,9 +1,9 @@
+
 {
-  "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "tyknawy",
-  "compatibility_date": "2026-08-26",
+  "name": "tkynawy",
+  "compatibility_date": "2026-10-17",
   "assets": {
-    "directory": ".",
+    "directory": "./dist",
     "not_found_handling": "404-page"
   }
 }
