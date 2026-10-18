@@ -1,0 +1,10 @@
+/thank-you /thank-you.html 200
+/thank-you/ /thank-you.html 200
+/store / 301
+/store/* / 301
+/ar/store /ar/ 301
+/ar/store/* /ar/ 301
+/offers / 301
+/offers/* / 301
+/ar/offers /ar/ 301
+/ar/offers/* /ar/ 301

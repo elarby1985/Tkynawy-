@@ -1,0 +1,5 @@
+TYKNAWY + FM KNOWLEDGE HUB
+
+Deploy the contents of this ZIP to your existing Cloudflare site. The FM quiz is at /fm-knowledge-hub/. English and Arabic homepages now link to the quiz. All existing website files are retained.
+
+IMPORTANT: Premium is a waitlist only. No payments are collected. The static question JSON is publicly accessible and must move to a protected backend before charging. Connect secure customer login, a payment gateway, and a protected question API before commercial launch.

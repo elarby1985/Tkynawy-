@@ -1,0 +1,5 @@
+TYKNAWY WEBSITE — VISUAL CREDITS
+
+Service-card visuals are original inline SVG illustrations created specifically for Tyknawy.
+Technology brand logos were supplied by the user and remain the property of their respective owners.
+The About section uses the user-selected real Pexels photograph supplied as pexels-cookiecutter-37717005.jpg and stored locally in optimised JPG and WebP formats.
