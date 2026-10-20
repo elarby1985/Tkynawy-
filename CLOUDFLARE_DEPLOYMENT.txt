@@ -1,0 +1,9 @@
+Tyknawy updated website (rack-free)
+
+Cloudflare Worker: tkynawy (confirm that this is your actual active Worker before publishing).
+Build command:
+mkdir -p dist && tar --exclude='./.git' --exclude='./dist' --exclude='./node_modules' --exclude='./.github' --exclude='./wrangler.jsonc' -cf - . | tar -xf - -C dist
+Deploy command: npx wrangler deploy
+
+IMPORTANT: The quotation form now prepares a WhatsApp message. The visitor must press Send in WhatsApp. It does not store leads on Cloudflare. Test this on both languages and desktop/mobile.
+Before replacing files, back up your GitHub repository and preserve current DNS/domain settings.

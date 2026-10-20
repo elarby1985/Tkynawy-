@@ -2187,3 +2187,25 @@ p {
   display: block;
   margin: auto;
 }
+
+/* Rack-free About section: full-width copy on all screens */
+.about-layout {display:block !important; max-width:1000px; margin-inline:auto;}
+.about-layout .about-eyebrow, .about-layout .about-copy {grid-column:auto !important;grid-row:auto !important;}
+.about-layout .about-eyebrow {margin-top:0;}
+
+/* 2026 Tyknawy audit remediation — accessible, bilingual, rack-free */
+[dir="rtl"] body{font-family:"Tajawal","Inter",system-ui,sans-serif}
+.site-header{position:sticky;top:0;z-index:50;background:#fff;box-shadow:0 2px 15px #0b2f5b12}
+.primary-nav a[aria-current="page"]{color:#164f93;text-decoration:underline;text-underline-offset:8px}
+.footer-brand p{max-width:35ch}
+@media(max-width:1100px){.site-header .primary-nav{gap:14px}}
+@media(max-width:620px){.about-copy p,.about-points p{font-size:1rem!important;line-height:1.65}.about-eyebrow{font-size:.875rem!important}}
+.service-number{color:#52647a!important;inset-inline-end:18px;right:auto!important}
+[dir="rtl"] .service-body h3{margin-inline-end:34px;margin-right:0}
+[dir="rtl"] .service-card .arrow{display:inline-block;transform:scaleX(-1)}
+.footer-bottom{color:rgba(255,255,255,.85)}
+html:not(.js) .reveal{opacity:1!important;transform:none!important}
+.form-status a{display:inline-block;margin-inline-start:8px;text-decoration:underline;font-weight:700}
+@media(min-width:1081px){.brand-grid{grid-template-columns:repeat(6,minmax(0,1fr))!important}}
+@media(min-width:701px) and (max-width:1080px){.brand-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}}
+@media(max-width:700px){.brand-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
